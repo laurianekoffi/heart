@@ -1,0 +1,20 @@
+Le contexte
+Les maladies cardiovasculaires (MCV) sont la première cause de décès dans le monde, faisant environ 17,9 millions de vies chaque année, ce qui représente 31 % de tous les décès dans le monde. Quatre décès sur 5 par MCV sont dus à des crises cardiaques et à des accidents vasculaires cérébraux, et un tiers de ces décès surviennent prématurément chez des personnes de moins de 70 ans. L'insuffisance cardiaque est un événement courant causé par les maladies cardiovasculaires et cet ensemble de données contient 11 caractéristiques qui peuvent être utilisées pour prédire une éventuelle maladie cardiaque.
+
+Les personnes atteintes de maladies cardiovasculaires ou à haut risque cardiovasculaire (en raison de la présence d'un ou plusieurs facteurs de risque tels que l'hypertension, le diabète, l'hyperlipidémie ou une maladie déjà établie) ont besoin d'une détection et d'une gestion précoces dans lesquelles un modèle d'apprentissage automatique peut être d'une grande aide.
+
+
+
+Informations sur les attributs
+AGE : âge du patient 
+SEXE : sexe du patient [homme, femme]
+TDT : type de douleur thoracique [AT : angine typique, AA : angine atypique, DNA : douleur non angineuse, ASY : asymptomatique]
+PAR : pression artérielle au repos [mm Hg]
+CHOLESTEROL : cholestérol sérique [mm/dl]
+GAJ : glycémie à jeun [1 : si glycémie à jeun > 120 mg/dl, 0 : sinon]
+ECG au repos : résultats de l'électrocardiogramme au repos [Normal : normal, ST : présentant une anomalie de l'onde ST-T , HVG : montrant une hypertrophie ventriculaire gauche probable]
+FCMAX : fréquence cardiaque maximale atteinte 
+ANGINE : angine induite par l'exercice [Oui, Non]
+DEPRESSION : Valeur numérique mesurée en dépression
+PENTE: la pente du segment ST d'exercice de pointe [Ascendant, Plat, Descendant]
+COEUR : maladie cardiaque[1 : Présence de la maladie, 0 : Absence de la maladie]
